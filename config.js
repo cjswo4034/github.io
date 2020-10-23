@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://cjswo4034.github.io',
   pathPrefix: '/',
   title: 'Blog by Nsm',
-  subtitle: '',
+  subtitle: 'Shoot for the moon. Even if you miss, you\'ll land among the stars.',
   copyright: '© All rights reserved.',
   disqusShortname: 'cjswo4034',
   postsPerPage: 6,
@@ -30,7 +30,7 @@ module.exports = {
     bio: '',
     contacts: {
       email: 'cjswo4034@gmail.com',
-      github: 'https://github.com/cjswo4034',
+      github: 'cjswo4034',
       linkedin: ''
     }
   }
