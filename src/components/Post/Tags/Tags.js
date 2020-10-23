@@ -19,10 +19,10 @@ const Tags = ({ tags, tagSlugs, inSidebar }: Props) => (
           styles['tags__list-item'],
           inSidebar && styles['tags_insidebar__list-item']
         )}
-        key={tags[i].replaceAll(' ', '-').toLowerCase()}
+        key={tags[i].replace(/ /g, '-').toLowerCase()}
       >
         <Link
-          to={slug.replaceAll(' ', '-').toLowerCase()}
+          to={slug.replace(/ /g, '-').toLowerCase()}
           className={cx(
             styles['tags__list-item-link'],
             inSidebar && styles['tags_insidebar__list-item-link']
