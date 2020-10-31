@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Nsm]]></title><description><![CDATA[Shoot for the moon. Even if you miss, you'll land among the stars.]]></description><link>https://cjswo4034.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 31 Oct 2020 17:00:00 GMT</lastBuildDate><item><title><![CDATA[Ubuntu 설치 후 설정]]></title><description><![CDATA[한성 노트북에 Ubuntu 설치 후, 내가 한 설정들]]></description><link>https://cjswo4034.github.io/posts/Ubuntu-설치-후-설정/</link><guid isPermaLink="false">https://cjswo4034.github.io/posts/Ubuntu-설치-후-설정/</guid><pubDate>Sat, 31 Oct 2020 18:15:11 GMT</pubDate><content:encoded>&lt;h3 id=&quot;서론&quot;&gt;&lt;a href=&quot;#%EC%84%9C%EB%A1%A0&quot; aria-label=&quot;서론 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;서론&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Nsm]]></title><description><![CDATA[Shoot for the moon. Even if you miss, you'll land among the stars.]]></description><link>https://cjswo4034.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 31 Oct 2020 23:31:24 GMT</lastBuildDate><item><title><![CDATA[Ubuntu 설치 후 설정]]></title><description><![CDATA[한성 노트북에 Ubuntu 설치 후, 내가 한 설정들]]></description><link>https://cjswo4034.github.io/posts/Ubuntu-설치-후-설정/</link><guid isPermaLink="false">https://cjswo4034.github.io/posts/Ubuntu-설치-후-설정/</guid><pubDate>Sat, 31 Oct 2020 18:15:11 GMT</pubDate><content:encoded>&lt;h3 id=&quot;서론&quot;&gt;&lt;a href=&quot;#%EC%84%9C%EB%A1%A0&quot; aria-label=&quot;서론 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;서론&lt;/h3&gt;
 &lt;p&gt;  윈도우를 사용하다가 리눅스를 공부해보고 싶은 마음에 충동적으로 노트북에 우분투를 설치했습니다. 예전에 학교에서 배웠던 기억이 있는데, 몇 년전에 배워서 그런지 다 잊어버렸네요.&lt;/p&gt;
 &lt;p&gt;  우분투를 설치하는 것은 인터넷에서 본 블로그를 보고 따라 했습니다. 인터넷에 좋은 자료가 너무 많아서 설치과정은 차치하고 설치 후에 했던 것을 기록할 겸 포스팅하려 합니다.&lt;/p&gt;
 &lt;br&gt;
@@ -212,7 +212,44 @@
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; gnome-tweaks
   or
 &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; gnome-tweak-tool&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt; &lt;img src=&quot;/media/tweak.png&quot; alt=&quot;tweak.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt; &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 328px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/38906a84da7c96df34c6ff4806d974a3/9ad58/tweak.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.02439024390245%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACt0lEQVQ4y1WTS0hUURjH79y5j3NnHEdHM8cIxJx84BgGOYQtCpESDJXMBl0Ebsa2QoI9oEBQW0kGUYvEqMXAzAglRITCQBvBNiFEIwM1wSQiLgxEWvjvO9+ZW7T4uI9zzu/8/99DE5YFx7bgExSO/V8I+m9TmKYByzQhLJP2qv8yHCH3CX66oTHMBQoXJgjgRbjuBEZG4rgxfB39A4MYGrqGq709sBksoWq/BAkXKG91Vfppscwn6CnokIGamuOIxTrRe+UyYp3nEIk0oqUpotQxzOHLXahkaNKKbaoNuqZBo7BJXZnfoYsMeOhb96j/8t2r6+REsAiv/KY1ZVdwSjSLFkzD4ANtrS3ovnQR1aEKhrtqHamYc2fD7/PB1D2srDkaQ0NTB53XWYRMGQN1unV6ehrFYpFjc3MTF7rOK6hUShvZCQFNrwe1dfWYmFvB/HIRT99uY/zuCwQC5RAE1aSywcEBHB0dYWtrC8lkErlcDp82NpQ6rqbMqSyCgEEWxyafI73+G68//MDDl1/w5N0++kZus0sGzs7M4PDwENlsFqlUCplMBru7u2htblI5ouTbFqkzvKgMVWPy8Ud8/baH7Z8FRG4uoO/+e0zMLLs10HArkcDBwQGWlpawuLiI1dVVVllVWUG5MciyUijDIuj4gzTerP9CZi2Hsbk13Hv1HfHxRwro2CaOVYVY1c7ODvL5PAqFAkZHR9mCTzglkMmWZaVPR7sw9ewzZtN7WFjZx+R8FrXheliUX83NU0WwnCF3pqao92IM46mQMCoIF0X2K9mX7XIqEkV3fwI9AwmEwydhejRuJ01OSXmgjK00NDQiHh/mdlG9qabIkQUpBUNJdTTahvbmCDo7ojh7pp0qrNbV6Ak5IQ4qg0GEKG+qCP9ATml2RWncZMjKBwMB6gQfrYu/F/4BqaeVEIrMklAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/38906a84da7c96df34c6ff4806d974a3/01472/tweak.webp 240w,
+/static/38906a84da7c96df34c6ff4806d974a3/888d8/tweak.webp 328w&quot;
+          sizes=&quot;(max-width: 328px) 100vw, 328px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/38906a84da7c96df34c6ff4806d974a3/0783d/tweak.png 240w,
+/static/38906a84da7c96df34c6ff4806d974a3/9ad58/tweak.png 328w&quot;
+          sizes=&quot;(max-width: 328px) 100vw, 328px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/38906a84da7c96df34c6ff4806d974a3/9ad58/tweak.png&quot;
+          alt=&quot;tweak&quot;
+          title=&quot;tweak&quot;
+          loading=&quot;lazy&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;패키지를 설치하면 애플리케이션에 기능 개선 항목이 생성됩니다.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -221,7 +258,50 @@
 &lt;h4 id=&quot;2-2-dock&quot;&gt;&lt;a href=&quot;#2-2-dock&quot; aria-label=&quot;2 2 dock permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-2. Dock&lt;/h4&gt;
 &lt;p&gt;  우분투의 Dock은 애플의 맥 OS에 있는 Dock과 같은 기능을 제공합니다. 그런데 맥 OS와 다르게 우분투에서 제공하는 기본 Dock의 레이아웃은 조금 투박합니다. 그래서 테마를 적용하시는 분들을 보면 대부분 Dock을 바꾸시더라구요.&lt;/p&gt;
 &lt;p&gt;  우분투에서 Dock에 적용할만한 대표적인 테마는 &lt;strong&gt;Plank&lt;/strong&gt;와 &lt;strong&gt;Dash to dock&lt;/strong&gt; 두 가지가 있습니다. 저는 두 가지 독을 전부 설치해서 다음처럼 쓰고 있습니다.&lt;/p&gt;
-&lt;p&gt; &lt;img src=&quot;/media/docks.png&quot; alt=&quot;docks.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt; &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fddaaca0a1660e1d6fb357ec3505d771/a987b/docks.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADCklEQVQozyWS3W9aBRjG+Q+8cLF+bbYdmJXyVaB8Hjh8HA4HeigDBhsFUla6UrphW/q1zhStdLDVuc46h6OZZhdL3NwSL3YxY7IbrVcmThOv9E53Y+KfsPxk8eLJe/Pklyfv82gWAn4UvYjnqIFkLMPU7DLVc4vMzS/SvfoBvU92aLd36O51+LJ7ncOH+3Q/b1HZqFNZqhLPnMEhZ7BLJzlhk9HMCmHMJ0Ts2jFOxlMkchXK5QUaFxosXtjgl4Mmzx7t8fuDa/x1eId/f+zx7a2LqLksgj+KySJiMAroTH6OGvxozmgNvDpoxzzqIjORIpiaIXFqhk5jiebiKk8uL/PP412+/+Iqfz/qwLMbPH/cYXeuQEOJMieGUO0CgkvGOt5PeNbtY2DIgUXv5HQyTTFf4f5SmvVqhdvrdf7obXB44xJ3Wx/y894lXvzU5sVvH/PnN01+eL9Ae1Kl5PaTCKmI4iSampzkyHEX+hEnUiRJLlvm3mqZ7fPzbDU2+a6zQW9znfu7H/Gk3eTXr9o8f7rHw/YKd+azzEsRki4RtyPAmCPU/6EU5TWtB9uok7CcJaCWmCovs7W+xZXLV9jebtHaadG91uLBfounvW2+vtmhVigzo0QIekPYLQJ6RwSdO4omrbfx5rDzf6CURlLzTKaLJLIV8tNVzlUXWFlr0Li4zNJKjc36NKVCkXFBYUKSCISjjDvCvOtVMYnpfilmG4PDNowjDjxCBKtLQvDJBPwySihKOj5BVokTj8QIByIokozbE8Zo8uAXgrj63lGrxLBdYcQeQ1M1mRl6x0LUaGcqlWRVkVnzCryXjtPMq5x/eXMyc4kgSkRGnYihxvvJAi/n4uaN4w4G+h0c0fp4ZciFxjdk5K0+cNJkpRAKc9Yh0IqIfJpL0pxOsJ8XOSid4tZCnbVikdXZGqV8nZAQx+5S0JmDHBvx9iXwus6DZmDQxsCxMUZ1BoJuN1ank5rDTs8r8llM5HZgnANfkK4Y47rQh8sxelKSpCWI1p3CFTrNmC/D24Zgf9hB/gOW08IL8SqpWwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/fddaaca0a1660e1d6fb357ec3505d771/01472/docks.webp 240w,
+/static/fddaaca0a1660e1d6fb357ec3505d771/222bd/docks.webp 480w,
+/static/fddaaca0a1660e1d6fb357ec3505d771/620b9/docks.webp 960w,
+/static/fddaaca0a1660e1d6fb357ec3505d771/28063/docks.webp 1440w,
+/static/fddaaca0a1660e1d6fb357ec3505d771/34ef4/docks.webp 1920w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/fddaaca0a1660e1d6fb357ec3505d771/0783d/docks.png 240w,
+/static/fddaaca0a1660e1d6fb357ec3505d771/782f4/docks.png 480w,
+/static/fddaaca0a1660e1d6fb357ec3505d771/f570d/docks.png 960w,
+/static/fddaaca0a1660e1d6fb357ec3505d771/8d0ff/docks.png 1440w,
+/static/fddaaca0a1660e1d6fb357ec3505d771/a987b/docks.png 1920w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/fddaaca0a1660e1d6fb357ec3505d771/f570d/docks.png&quot;
+          alt=&quot;docks&quot;
+          title=&quot;docks&quot;
+          loading=&quot;lazy&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;1번은 Dash to dock을 적용했고, 2번은 Plank를 적용했습니다.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -229,32 +309,229 @@
 &lt;h4 id=&quot;--dash-to-dock&quot;&gt;&lt;a href=&quot;#--dash-to-dock&quot; aria-label=&quot;  dash to dock permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;- Dash to dock&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;  &lt;strong&gt;Dash to dock&lt;/strong&gt;은 파이어폭스나 크롬 브라우저에서 &lt;a href=&quot;https://extensions.gnome.org/extension/307/dash-to-dock/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Dash to Dock extension&lt;/a&gt;로 접속한 뒤 간단하게 설치할 수 있습니다. &lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;위의 링크에 접속한 뒤 OFF라고 써진 버튼을 클릭해서 ON으로 바꿔줍니다.
-&lt;img src=&quot;/media/d2d_extension.png&quot; alt=&quot;d2d_extendsion.png&quot;&gt;&lt;/li&gt;
+&lt;li&gt;위의 링크에 접속한 뒤 OFF라고 써진 버튼을 클릭해서 ON으로 바꿔줍니다.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt; &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 672px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2cf55692d2e15fb7f1791c77138f3af2/f0536/d2d_extension.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.964285714285715%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAAB1klEQVQoz2WRTWsTURSG81dExW3RumoVv7oQd65qQVe6FqEgLgSpiDXaSlPjR9I29ktLJG0yIdZY0ITUFqSRdqclVKFgJ5OJIRNNMjPOPL13YhT1wMu553J5znvO9W1uFcmsbBBTFJTUSxKJJK/fZlnMZMkuvyOzlmdJ5C/b28gwm00s18UpqaTCSfr7LjLQe55cLE11ZQmffLRa2OLs7ft0jY5xJPiUU6PjnA6EOPQowoFghIODI0y8z4NtoWoalUqFb0I/Kjp2rYrdqNO0TK+hB1Q+FTh2a4iuhxN0T72gZ3aeM9NROhJpOtI5usMzjK+tS3u/gbquo5fLaHrZgxeLRb7Xai1grPCZTgHrCU1yfCjIyeHHnIsm6X0W43D8FUcDYRaWV3GFw687qgcrlUqeNAHStBJlAbdtuwWczK+z76af/Q/G2PM8zt45hb6RJ1wYHObE3QCdA35m32TB+YkmINJh26UEyWxZ1p+Rcx83uTQT5fJCihvzca5Nz9Hvv8eVO36ui/PVUITFDxtiVw1U4Ug6U1XVkyZWIMet1+stoCt+7K+QtRiNf+9FGEaVHQExDIOm+O2GaCBBpmnS5vhaDNeTI7Os2/p135bckYQ4zv/N2pxdZmkk3wC3+P8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/2cf55692d2e15fb7f1791c77138f3af2/01472/d2d_extension.webp 240w,
+/static/2cf55692d2e15fb7f1791c77138f3af2/222bd/d2d_extension.webp 480w,
+/static/2cf55692d2e15fb7f1791c77138f3af2/be742/d2d_extension.webp 672w&quot;
+          sizes=&quot;(max-width: 672px) 100vw, 672px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/2cf55692d2e15fb7f1791c77138f3af2/0783d/d2d_extension.png 240w,
+/static/2cf55692d2e15fb7f1791c77138f3af2/782f4/d2d_extension.png 480w,
+/static/2cf55692d2e15fb7f1791c77138f3af2/f0536/d2d_extension.png 672w&quot;
+          sizes=&quot;(max-width: 672px) 100vw, 672px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/2cf55692d2e15fb7f1791c77138f3af2/f0536/d2d_extension.png&quot;
+          alt=&quot;d2d_extension&quot;
+          title=&quot;d2d_extension&quot;
+          loading=&quot;lazy&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
  &lt;br&gt;
+ 
  설치가 끝나면 2-1에서 설치했던 tweaks를 통해 독을 조정할 수 있습니다.
 &lt;ol&gt;
 &lt;li&gt;유틸리티에서 기능 개선 앱을 실행합니다.&lt;/li&gt;
 &lt;li&gt;확장 탭을 클릭한 뒤 아래 이미지에서 Ubuntu dock를 제외한 나머지 버튼을 활성화합니다.&lt;/li&gt;
-&lt;li&gt;Ubuntu dock 버튼은 비활성화합니다.
-&lt;img src=&quot;/media/tweak_active.png&quot; alt=&quot;tweak_active&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Ubuntu dock 버튼은 비활성화합니다.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;  각각의 버튼을 활성화 또는 비활성화 하면 독이 바뀐 모습을 볼 수 있습니다. 독의 레이아웃을 조정하려면 위 이미지에서 Dash to dock 항목 오른쪽에 메뉴 버튼을 클릭한 뒤, 활성화된 창에서 세부적인 사항을 조정할 수 있습니다.
-&lt;img src=&quot;/media/d2d.png&quot; alt=&quot;d2d&quot;&gt;&lt;/p&gt;
+&lt;p&gt;   &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e850f72ac6abd7f19c9d0b228951abca/0718c/tweak_active.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 69.79062811565304%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACo0lEQVQ4y42U30/aUBTH+7cs2dOeBkwjD4ZliS/b4/6APfkn7GkzZEumvuhkLnUGowtkio4sWcJMGOiIApZBE/kl0BZojYENqBOcZa307NzrMHM8zJt8c9reez73/EoZh8PxYGRkxD02NjaL1mW32102m801NDRErdVqpdZisbhGR0epbJbbrlvDw3PjN2/MV8cfLbhnZ9x2x92VO1brQ4Zl2bl4PA5bW1sQiUQgEAiA1+MBr9cLq6ur4PP5LrWxsUHlW1uDd+vrEPK8BfW9D3aWl2DT7wf34qKHKZfLL+BinaH08/NzXRAEPZfP6+VKRVcURZdl+VL9dwX3pFrdqCQ4o7UwrwEXA2E7PM9kMpkpTdOg0+noCDSbzSakUinY4zhIp9NQLBahVCoNqIgScE8UBKhEto12PguYKcuUSsUpEp6OiwCPVRXwEtjf34dsNkudJUkCURQHJBHJMlS/JoxOpQxcMskyhVzuAtjt6mCa5nGrRSOMxWIQjUaB53k4ODiAQqEwEKVALjs8hGrki6EVC8CnMyyTV5TJUwS2ur9ohD8wfRJhMpmEfD5PU+4D+yLf6DPaIloFI+wSILfHMtLSmxk9+AnUjx904/Om2ebikEUQ6TwBE9i/wCtwrKEc3TVO+RRw0SjLfHvy+BUsuODn1DNDe/7UbHqWIYc304agA3acCqdhUFhbScGUd3eMM1EAjudZ5uh7Y5LU0MQyEqO227Tg1Wr1ijNpzKD+QGXZaJ2cAMdxCDw6ok3p9XoXQFU1MSITISY6/V/knCgaKjazD6SDbfZ6GhoDgQYCDQReWwjWGo0GAb4mwJfw18JIoV6vAxlwcug6qtVq1A+BKwzO2j2cqWns5ARaZyKRcAaDQWc4HHaGQqHragL/BdN+v//+b+RUmw7mTUypAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/e850f72ac6abd7f19c9d0b228951abca/01472/tweak_active.webp 240w,
+/static/e850f72ac6abd7f19c9d0b228951abca/222bd/tweak_active.webp 480w,
+/static/e850f72ac6abd7f19c9d0b228951abca/620b9/tweak_active.webp 960w,
+/static/e850f72ac6abd7f19c9d0b228951abca/f229d/tweak_active.webp 1003w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/e850f72ac6abd7f19c9d0b228951abca/0783d/tweak_active.png 240w,
+/static/e850f72ac6abd7f19c9d0b228951abca/782f4/tweak_active.png 480w,
+/static/e850f72ac6abd7f19c9d0b228951abca/f570d/tweak_active.png 960w,
+/static/e850f72ac6abd7f19c9d0b228951abca/0718c/tweak_active.png 1003w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/e850f72ac6abd7f19c9d0b228951abca/f570d/tweak_active.png&quot;
+          alt=&quot;tweak_active&quot;
+          title=&quot;tweak_active&quot;
+          loading=&quot;lazy&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;  각각의 버튼을 활성화 또는 비활성화 하면 독이 바뀐 모습을 볼 수 있습니다. 독의 레이아웃을 조정하려면 위 이미지에서 Dash to dock 항목 오른쪽에 메뉴 버튼을 클릭한 뒤, 활성화된 창에서 세부적인 사항을 조정할 수 있습니다.&lt;/p&gt;
+&lt;p&gt; &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 652px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ee7e59b94642c6e960855d3ddeae49ea/c2dea/d2d.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 114.2638036809816%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsSAAALEgHS3X78AAADQElEQVQ4y6VUPU8bQRD1f0gTpUxLgwQWHxI0WBESNojGEKew6KxIdPwL4B8gpDQgYdLTADUCkwiDKFCIMbYxts/nO/vs+9zJm/WdMZgiJCs97d7s7pudmTcXGhoaeh8eGfkCJMKjo4nRPozANjU1nYhEIonZ2dnE9PS0tIfD4R7GxsYSk5OTnycmJpLDw8MfQ+Pj47Ho/DxFFxaI51gsJjHPtmiUlpaXKZlM0srKCi0txWlubg72mNxj8LnFxUWKx+MEh19DW9vb0V8/zil3nnF///zpZjIZ7+zszDs9PZU4OTmRuLi48LLZrHd1dSVxeXnZA+z27e0t7e7upkLf9/ejXlMnMgxBnbawLUuYptmDhW+G47iA04PneSIYWDuEcXx8nArt7aWjluNQy7ZFVVGEaVn02sC9Z6jValQqFalcLpOmaZLw6OgoFUqn01Hbtsko3ItCPi/q9Trpuk7tdvtVogAgkaR83jCMQUJRqwq9oQom48PtdofeMAYJlUZDVKpVoSjKU5iAXSxQKZcjFx+a1iANDpEzqlQqhLyS1lApf38vCQ8PD58IOcl+suUF13W7M/ZQKHKxxr4E78k7CJ2ZbDYGL+Si8HezqQvkRDw8PFCr1ZJkAYEDgt4a8PDNDqxmk9zHMkEG/YR7khDVEjc3N+L6+ppyd3fEoTO56hepicsdFMpgZyBsA8plljrftsgpFgZzyCmTIeMgdEcWbB3MDqcAoUngUD9EMAsxSMgihlREp+NX18RsmSQww0iu0ZJw+mbbNKVzpz+HTOiAUNc0kcvlBCrGa2oiN1qpRDrCbkK8At3kcYX92QUsODJfIwxCVlXWoSbFWgdpHZdU5K6u6W/ToeOgU4yWQHUFVM/hd3WIIsDAVZQ2KRXkmM9wVByur4jBF3L+8mi9YrFIJYRp4HVVCLqMv0gNPfsIIZfZbrS7RfPBjqDLV1oPAy0nGo2GbL0WXqGoKtXqquwOtrOELEumR+q0r7ef65CV76tA/E3jvvxRPMthIOyuU08E8P9z3fUL+8sxUBTfi/gPPP1gd3Z25jg/XK2gxd4K3OOGoYODg1RodXX13fr6emRjY2PmX4H7M5ubm5/W1tY+/AHcUDNcahh8KQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/ee7e59b94642c6e960855d3ddeae49ea/01472/d2d.webp 240w,
+/static/ee7e59b94642c6e960855d3ddeae49ea/222bd/d2d.webp 480w,
+/static/ee7e59b94642c6e960855d3ddeae49ea/1e170/d2d.webp 652w&quot;
+          sizes=&quot;(max-width: 652px) 100vw, 652px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/ee7e59b94642c6e960855d3ddeae49ea/0783d/d2d.png 240w,
+/static/ee7e59b94642c6e960855d3ddeae49ea/782f4/d2d.png 480w,
+/static/ee7e59b94642c6e960855d3ddeae49ea/c2dea/d2d.png 652w&quot;
+          sizes=&quot;(max-width: 652px) 100vw, 652px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/ee7e59b94642c6e960855d3ddeae49ea/c2dea/d2d.png&quot;
+          alt=&quot;d2d&quot;
+          title=&quot;d2d&quot;
+          loading=&quot;lazy&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4 id=&quot;--plank&quot;&gt;&lt;a href=&quot;#--plank&quot; aria-label=&quot;  plank permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;- Plank&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt; 다음 명령어로 &lt;a href=&quot;https://github.com/ricotz/plank&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Plank&lt;/a&gt;를 설치합니다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; plank&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;br&gt;
- &amp;nbsp;plank를 설치하고 나서 다음 명령어로 레이아웃을 조정할 수 있습니다. 위의 명령으로 plank를 설치하면 앱이 생성되는데, 생성된 앱을 클릭하면 실행이 안되더라구요. 그래서 명령어로 설정창을 실행합니다.
+&lt;p&gt;  plank를 설치하고 나서 다음 명령어로 레이아웃을 조정할 수 있습니다. 위의 명령으로 plank를 설치하면 앱이 생성되는데, 생성된 앱을 클릭하면 실행이 안되더라구요. 그래서 명령어로 설정창을 실행합니다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;plank --preferences&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;br&gt;
- 저는 다음처럼 설정했습니다.
- 
- ![plank1.png](/media/plank1.png)
-&lt;p&gt;   도크릿 탭에서 아이콘을 클릭하면 plank 독에 클릭한 아이콘이 추가됩니다. Desktop 아이콘은 바탕화면을 표시하는 아이콘입니다. 윈도우에서 &lt;code class=&quot;language-text&quot;&gt;window + D&lt;/code&gt; 커맨드와 동일한 기능을 합니다.
-&lt;img src=&quot;/media/plank2.png&quot; alt=&quot;plank2.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt; 저는 다음처럼 설정했습니다.&lt;/p&gt;
+&lt;p&gt; &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 688px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c97dc28765b87e5ae4b446d927e3b518/4f3bc/plank1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.122093023255815%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACX0lEQVQoz12RTU8aYRDH95M0PZJ44KDEKq2QePAAF4g0BBJi3ZCGj+InMDHKsUlxA6ZHYBe8NtR9YxF2ZRcQDSAIwdCk8rDTebbQVg+/zOzMPLP/mWHW1tberK+vJ5FDhN3Y2GCpdbvd7NbWlmN3d3dZn8/Hbm9vs3t7e+zOzgenzuPxOBY53Nzc/Oxyud4yfr8/GolEYMX+/j6Ew2EIBAIQjUYhGAxCMpmETwcHEIvFIJVKQSKRgFAo5NRRqB+Px8Hr9SaYTCYTMQwDFEWZI+T6+proukG63S5pt1qke3tL2u026XQ65PaVvwJrnxE4Pj6OM7lcLoJBqNfrC13XbSy2h8OhPZlM7MfZzB6hHSP0ezwe/7X/gzEynU7h9PQ0zmSz2Y/4V8BmC03TbGwMN80mmKi6VxZgUNPAxG8DaZomNGmOgv4SG2NU5cuGN4axEEXRlmUJfogiVCUJ7r5+gX7lO9SurkCuVEDDWK1ahepLbFVVSavVgnQ6/achjgmoboH7s+k+abKDa6C+LstgqipYiKkoqFyHho40GitshNzf38PZ2dk/hZZlLRBnZFQKkiSDjA2uZAXUWg0UTQOVoqIqbP5aIR3fUUiPotKHoviMzeZ4EDIYDJxLNlWFWJJETMRCFbphkEZDX9rGijnyi06JCmPMxcVFbDQaQb/fd6ALxwNRxfBzNoNHzD3c3cEDPhjgGh4Q68YAOiKt7/V6jv/09EQVHjAnJyfvisVirlQqnQuCcJ7P5zlKoVDgypeXXKlc5nhB4PhikROWFDDP8zwn0DjPnyMZfP/t6Ojo/W80RZs9ZIa0VgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/c97dc28765b87e5ae4b446d927e3b518/01472/plank1.webp 240w,
+/static/c97dc28765b87e5ae4b446d927e3b518/222bd/plank1.webp 480w,
+/static/c97dc28765b87e5ae4b446d927e3b518/99208/plank1.webp 688w&quot;
+          sizes=&quot;(max-width: 688px) 100vw, 688px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/c97dc28765b87e5ae4b446d927e3b518/0783d/plank1.png 240w,
+/static/c97dc28765b87e5ae4b446d927e3b518/782f4/plank1.png 480w,
+/static/c97dc28765b87e5ae4b446d927e3b518/4f3bc/plank1.png 688w&quot;
+          sizes=&quot;(max-width: 688px) 100vw, 688px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/c97dc28765b87e5ae4b446d927e3b518/4f3bc/plank1.png&quot;
+          alt=&quot;plank1&quot;
+          title=&quot;plank1&quot;
+          loading=&quot;lazy&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;   도크릿 탭에서 아이콘을 클릭하면 plank 독에 클릭한 아이콘이 추가됩니다. Desktop 아이콘은 바탕화면을 표시하는 아이콘입니다. 윈도우에서 &lt;code class=&quot;language-text&quot;&gt;window + D&lt;/code&gt; 커맨드와 동일한 기능을 합니다.&lt;/p&gt;
+&lt;p&gt;  &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 688px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2a560cb6b527dd1c3d4c55571595b2aa/4f3bc/plank2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 57.122093023255815%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAB9UlEQVQoz61R3WoaURDeJym9E7xxFRSTai58h12ji1WzlBKI5DnyEt63KVTrz0UJtBaJYsDQEqzu2mD6o2urNZrUn91zZnrOaiVJ24tCBz7mmzkz38w5R3A6nffcbvcjj8ez4xLdqsjAYtXv96uhUEj1+XxqYGtL3Qw8UF0ul7qxsWmfi6Joe55jfsfr9T52OBz3Bda0zQxlOYxKdBujkSVPJBKYSqUwFovh/l4K93Z3UZIkTCaTGA6HbR6JRFBRFFYvYzwex2Aw+FAol8vSwjQRgVofjQnpD68JJRaZz+dkOp0SZNHRhU6OOhoBi9i52WxGEJE0Gg1SPz1lHJgAYiaTUYRarSahbUCb51/hszECHtzEq44Gry/03/Jn797CcfkN53wAFgoFRahUKjIPTNOk48vvcDUZo2URBAA2AuxR/W4PR4OhzSmlqzOCvdEP/GCMgVimLZjL5RShWq3Kyw2RGr0eDAeD5b6siTdzK5VKyOrWebIa9KRu4MHL8/WG+Xz+tuBwPIHR1fW6kYNbt9u1cTf/yfiGWucLC+DPgtOzOiw67dWL0rXAL/sLZ/S2oLRqNvsnx9al9t7+QXZdwgs5bvK7oAAW84vVG0b5L0fxP1mxWEwI2WzW32w2n2u6fqhrGscz7d9w2Gq1nrbb7RfpdDrwE9700W5RnObwAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/2a560cb6b527dd1c3d4c55571595b2aa/01472/plank2.webp 240w,
+/static/2a560cb6b527dd1c3d4c55571595b2aa/222bd/plank2.webp 480w,
+/static/2a560cb6b527dd1c3d4c55571595b2aa/99208/plank2.webp 688w&quot;
+          sizes=&quot;(max-width: 688px) 100vw, 688px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/2a560cb6b527dd1c3d4c55571595b2aa/0783d/plank2.png 240w,
+/static/2a560cb6b527dd1c3d4c55571595b2aa/782f4/plank2.png 480w,
+/static/2a560cb6b527dd1c3d4c55571595b2aa/4f3bc/plank2.png 688w&quot;
+          sizes=&quot;(max-width: 688px) 100vw, 688px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/2a560cb6b527dd1c3d4c55571595b2aa/4f3bc/plank2.png&quot;
+          alt=&quot;plank2&quot;
+          title=&quot;plank2&quot;
+          loading=&quot;lazy&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt; plank에 있는 앱을 우클릭한 뒤 나타나는 &lt;code class=&quot;language-text&quot;&gt;플랭크에 두기&lt;/code&gt; 항목을 활성화하거나 비활성화해서 앱을 독에 추가하거나 지울 수 있습니다. 만약 앱을 지우고 싶은데 &lt;code class=&quot;language-text&quot;&gt;플랭크에 두기&lt;/code&gt;가 없다면 다음 경로에서 지우고 싶은 앱을 지우면 됩니다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;~/.config/plank/dock1/launchers/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;br&gt;
@@ -264,12 +541,54 @@
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;plain&quot;&gt;&lt;pre class=&quot;language-plain&quot;&gt;&lt;code class=&quot;language-plain&quot;&gt;Theme: Orchis-light
 Icon: Numix Circle Icon Theme&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
  &lt;br&gt;
+ 
  &amp;nbsp;홈에 `.themes`폴더를 생성한 뒤, `~/.themes`에 위의 링크에서 다운받은 테마를 옮깁니다.
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; ~/.themes
 &lt;span class=&quot;token function&quot;&gt;mv&lt;/span&gt; Ordchis-light ~/.themes&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
  &lt;br&gt;
  &amp;nbsp;그 다음 기능개선 앱에서 테마를 변경합니다. 모양새 탭에서 레이아웃, 커서, 아이콘 등의 테마를 변경할 수 있습니다.
-&lt;p&gt; &lt;img src=&quot;/media/themes.png&quot; alt=&quot;theme.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt; &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e77e7bd0b045cf31e52e8b8909e76231/9077e/themes.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 65.8513640639699%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACpklEQVQ4y4VSy07bQBR1K7atEqqGhdmxhA/pon/DD/SxCAskKjACpAqpu3aDaCJoAySN6C5q2SBCSOI4jrEHOw87k9hOYo9v75hCS6mEpSPP486Zc85cQcCvUa0+L+YLs9+O8qJcrYmyLIuqqoqtVisGHxuGIRbyefHHj5/xuFmpiM2LC1FF1E5PZ8snJ6mPxaIgrEjSE9f3qw6loUP7bhCGHmPMC4LgFpPJxAtxvdfrepQOvJDvA3ghImDMHePmcDSqHeVy08LbxcVptVq1IAwhcF0YDwZweXkJ/X4fXJwPh8NbeJ4HrodrWEMrFXDOz4FWazBRFOiWy9anQmFG+PziZaryYddpfTkG8vU76xwUI7WpRO1OJxoMBhES3wWlEbXtSM3lIvngIGqXSqFTKsHV8bGxi7aF9+vrSaWhGO12BybjMfNdDwgxwLZtoJTGSvn/7/EQlSuyDBdnZ2DqOrPbbTB0nWT29lLCqzevE5ZlGZgTTIIJ80cjwDk4jnNLcgNUHO/V63VooM16owFXpsl6eDk+FMlmMinh3cpKsqkoBs9tjApHvg+6roPzW8012R91/CKu/oqQmLzb7TKKe6Zpkp2dnZgwga1h8CLf99kIFWKb3CH81zJX2iJarJQQwvhZTdPI/v5+SlhaSifwFiOKIkDbMSHKh16vd8/yDfh6S9M4GXQ6HcZVc8sZblmSpAS2g84J0XKIhKxWqzEsYKiEIcF9UMqIReIaRMitY0xGNptNCeuSlERCE/DDhsZ2DONsXHxt3nf/A0YDTa3JbcZ583ocW4eHhzNCOp1+ipbLaMPD2zEOu48BPwjLtPpIxIFd0/ZQ6fn29vYzYWpq6tHq6urc1tbWwubm5vzGxsb82traw5Cu/3h2HmNbWF5enksmk49/AfSrZhGsxNpSAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/e77e7bd0b045cf31e52e8b8909e76231/01472/themes.webp 240w,
+/static/e77e7bd0b045cf31e52e8b8909e76231/222bd/themes.webp 480w,
+/static/e77e7bd0b045cf31e52e8b8909e76231/620b9/themes.webp 960w,
+/static/e77e7bd0b045cf31e52e8b8909e76231/e8dbe/themes.webp 1063w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/e77e7bd0b045cf31e52e8b8909e76231/0783d/themes.png 240w,
+/static/e77e7bd0b045cf31e52e8b8909e76231/782f4/themes.png 480w,
+/static/e77e7bd0b045cf31e52e8b8909e76231/f570d/themes.png 960w,
+/static/e77e7bd0b045cf31e52e8b8909e76231/9077e/themes.png 1063w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/e77e7bd0b045cf31e52e8b8909e76231/f570d/themes.png&quot;
+          alt=&quot;themes&quot;
+          title=&quot;themes&quot;
+          loading=&quot;lazy&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;h4 id=&quot;2-4-쉘-a-id2-4a&quot;&gt;&lt;a href=&quot;#2-4-%EC%89%98-a-id2-4a&quot; aria-label=&quot;2 4 쉘 a id2 4a permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-4. 쉘 &lt;a id=&quot;2-4&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;  z쉘은 각종 플러그인을 적용할 수 있고 경로 추론 및 명령어 선택 등 다양한 기능을 제공해서 기본 쉘인 bash보다 편의성이 더 좋다고 합니다. 또한 oh-my-zsh라는 툴로 z쉘의 사용성을 개선할 수 있어서 많은 분들이 z쉘을 사용하시더라구요. 그래서 저도 한번 써봤습니다.&lt;/p&gt;
@@ -287,17 +606,99 @@ Icon: Numix Circle Icon Theme&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;br&gt;
 &lt;h4 id=&quot;2-5-글꼴-a-id2-5a&quot;&gt;&lt;a href=&quot;#2-5-%EA%B8%80%EA%BC%B4-a-id2-5a&quot; aria-label=&quot;2 5 글꼴 a id2 5a permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-5. 글꼴 &lt;a id=&quot;2-5&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt;  적용하고 싶은 글꼴의 ttf파일을 다운받고 실행해서 설치합니다. 저는 &lt;a href=&quot;https://github.com/naver/d2codingfont&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Naver D2&lt;/a&gt;를 받았습니다.&lt;/p&gt;
-&lt;p&gt;  그 다음, &lt;strong&gt;기능개선 앱&lt;/strong&gt;의 글꼴 탭에서 다운받은 글꼴로 변경합니다.
-&lt;img src=&quot;/media/font.png&quot; alt=&quot;font.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;  그 다음, &lt;strong&gt;기능개선 앱&lt;/strong&gt;의 글꼴 탭에서 다운받은 글꼴로 변경합니다.&lt;/p&gt;
+&lt;p&gt; &lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/75364b96cef9578f7652824df08af716/9077e/font.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 65.8513640639699%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACoElEQVQ4y5VTz0sbURDeFq8t0dJ4WG/SQ9E/SHrzz/Ai9hQpgkUTYg7Wi1pKUFoq1NIgrR7EhGqMmHS70exq8vZHkv2RbDbZZN9O521RWrAFFz5m3uzMN9/M2+U4fESh/DTzdX/sy943Xvwh8JcXF3wZIUkSf3V1xcuyzBNC+Fwux+fz+dBnMUnXeRFRIsrYuSRF0zMzHLe4uvrI9bpCq237rZbd8SFwfUpdihgMBiH6/X54tizLbbVaod/HuN/tutR1OwPH8R3LEjMHByPcq2fPR4Q37xrO4Sk09w6hldkHlRC4vq6CYRjQ6XTAcZwQzL85u2ibhQKUs1nQBQH001P9w9zcKJecejF8+XFXMXJ5sL8XfOekEMiSFFQQqCawbftOtBHk/DwolkVfVjUgpRLZnZqKcqn19YisKsTArj4A9QCgWq1CpVIB0zQBSQEJQnvrt9vQwXwF1RWyWSqLIijHx8qn6eko93J2dlhTVeL1etDv9WjPdUNCvBDQdR3aWMxIbsDOqqqGOeXCMfw8OqLSyQnUzs6UzxsbUe714mJEkiqEJXieR3tIbJkWlFlX3CXb15+ETKVpmKH6onwBRUGgBsaVel15v7PzmxA/DcISut0u9XoeGLYFxYoIjUbjVuFfI6Nl8YamQ71ep33PYxeovN3cjHLz87FIs9kkQRCA1/coG13RVJDJ9W3xvyxriLWU+ZqmKdvb21EuHo9HXNethYSe5+PItK7rtNkIEykW3wn2DgkpEvqMEPdNtra2olwiHh9GQg0vF/CDBd/32eghMP5f3OSwGlyZnk6nR7lYLPYYuxTZH4CdMW7aKP8+MFGdW6vVSmtra0+4oaGhB0tLS+OpVGpyZWVlIplMTiwvL98LiURicmFhYTwSiTz8BXfRY1OaBnAxAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/75364b96cef9578f7652824df08af716/01472/font.webp 240w,
+/static/75364b96cef9578f7652824df08af716/222bd/font.webp 480w,
+/static/75364b96cef9578f7652824df08af716/620b9/font.webp 960w,
+/static/75364b96cef9578f7652824df08af716/e8dbe/font.webp 1063w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/75364b96cef9578f7652824df08af716/0783d/font.png 240w,
+/static/75364b96cef9578f7652824df08af716/782f4/font.png 480w,
+/static/75364b96cef9578f7652824df08af716/f570d/font.png 960w,
+/static/75364b96cef9578f7652824df08af716/9077e/font.png 1063w&quot;
+          sizes=&quot;(max-width: 960px) 100vw, 960px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/75364b96cef9578f7652824df08af716/f570d/font.png&quot;
+          alt=&quot;font&quot;
+          title=&quot;font&quot;
+          loading=&quot;lazy&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;h4 id=&quot;2-6-바탕화면-아이콘-제거-a-id2-6a&quot;&gt;&lt;a href=&quot;#2-6-%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4-%EC%95%84%EC%9D%B4%EC%BD%98-%EC%A0%9C%EA%B1%B0-a-id2-6a&quot; aria-label=&quot;2 6 바탕화면 아이콘 제거 a id2 6a permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-6. 바탕화면 아이콘 제거 &lt;a id=&quot;2-6&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
 &lt;p&gt; 바탕화면에는 있지만 바탕화면 폴더에서 제거할 수 없는 아이콘(ex.쓰레기통)을 제거하려면 dconf 패키지가 필요합니다. 다음 명령으로 dconf를 설치한 뒤 실행합니다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; dconf-*
 &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; dconf-editor&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;br&gt;
-&amp;nbsp; 아래의 화면에서 show-home 및 show-trash의 값을 거짓으로 변경하면 바탕화면에서 쓰레기통과 유저 폴더를 제거할 수 있습니다.
-![dconf](/media/dconf.png)
-&gt; 어플리케이션 테이블의 &apos;dconf 편집기&apos;로도 실행할 수도 있다.</content:encoded></item><item><title><![CDATA[Perfecting the Art of Perfection]]></title><description><![CDATA[Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.]]></description><link>https://cjswo4034.github.io/posts/perfecting-the-art-of-perfection/</link><guid isPermaLink="false">https://cjswo4034.github.io/posts/perfecting-the-art-of-perfection/</guid><pubDate>Thu, 01 Sep 2016 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.&lt;/p&gt;
+&lt;p&gt;  아래의 화면에서 show-home 및 show-trash의 값을 거짓으로 변경하면 바탕화면에서 쓰레기통과 유저 폴더를 제거할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 587px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/974cb14a88a34833d6e16b3e71b3ad86/6068f/dconf.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 143.78194207836458%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAdCAYAAACqhkzFAAAACXBIWXMAAAsSAAALEgHS3X78AAACbElEQVRIx+2Wy44SQRSGSTRxIw8gKBhn0T6FJqxcGIxR46vwHkBgRlyycdZs2LIAEsIl2ISADOGiXLuB5tZ0ddfxVAHFEBlh4ixczEn+VHdX9Vf/qT6dKhsA2O4qBMvj8Tzo9/uvJpPJ+9Fo5B2Px16893Y6HW+32xXq9XrewWDA+65dvxsOh29isdhjQf52efl8Op0a2AEIBATCsTBNk2sblUrlrQCGz88lnI2oqgroysLZLVVVeNvpdi3ssxRFsQzDsObzudBsNmMtYcB0Ov1JAL9cXEjtdttoNBpQLBZpuVzmKpVKVJZlbGVarVYpgqmmTelisaAI4sJrbjOVSn0UwK+RiKRpGkEXgC3VJhNQ1ZFInzlfSwGDcENAKWWiq9WKAwuFwg4YCAQkfEYQBle1GjoZwilhWRZtNhvmUtcBs9kB/X6/RDBwjYClgbPyBWcte7YvAjiUC++paVrcYSaT2XeI60eqlQqzTrO5HLRabZ4yW4abhP201WyaA6yOZDK5AwaDQaler5Na7Qdks1kOxPujQEVV2YcyMStIJBL7QF3XyXK5BCwFOsW11DHdTVo3Cvspjucp53K5HTAajUpYc6R+VeMOZfk7YBnBAic4EqJssLx2wFAoJOEXI5tyoKxl7rZ/wqZEDomN/dNhOByW8GWynXXDFLCD1tbP2VgOzOfzh4F0HcLFEahw+FcgnBj3wHvgfw1k/zICV5tB1i1FNsAPAhiJRF7CPwZubp8F0OfzPcVNqIh7cw/3lTbq522EB4Rf8Xj89fVTxEPUE7fbfeZwOF44nc6T5XK5zux2+zN8/5HtLmN7rvkN/UrTBfQq0jAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+        &lt;source
+          srcset=&quot;/static/974cb14a88a34833d6e16b3e71b3ad86/01472/dconf.webp 240w,
+/static/974cb14a88a34833d6e16b3e71b3ad86/222bd/dconf.webp 480w,
+/static/974cb14a88a34833d6e16b3e71b3ad86/85ee1/dconf.webp 587w&quot;
+          sizes=&quot;(max-width: 587px) 100vw, 587px&quot;
+          type=&quot;image/webp&quot;
+        /&gt;
+        &lt;source
+          srcset=&quot;/static/974cb14a88a34833d6e16b3e71b3ad86/0783d/dconf.png 240w,
+/static/974cb14a88a34833d6e16b3e71b3ad86/782f4/dconf.png 480w,
+/static/974cb14a88a34833d6e16b3e71b3ad86/6068f/dconf.png 587w&quot;
+          sizes=&quot;(max-width: 587px) 100vw, 587px&quot;
+          type=&quot;image/png&quot;
+        /&gt;
+        &lt;img
+          class=&quot;gatsby-resp-image-image&quot;
+          src=&quot;/static/974cb14a88a34833d6e16b3e71b3ad86/6068f/dconf.png&quot;
+          alt=&quot;dconf&quot;
+          title=&quot;dconf&quot;
+          loading=&quot;lazy&quot;
+        /&gt;
+      &lt;/picture&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;어플리케이션 테이블의 ‘dconf 편집기’로도 실행할 수도 있다.&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Perfecting the Art of Perfection]]></title><description><![CDATA[Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.]]></description><link>https://cjswo4034.github.io/posts/perfecting-the-art-of-perfection/</link><guid isPermaLink="false">https://cjswo4034.github.io/posts/perfecting-the-art-of-perfection/</guid><pubDate>Thu, 01 Sep 2016 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
