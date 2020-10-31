@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Nsm]]></title><description><![CDATA[Shoot for the moon. Even if you miss, you'll land among the stars.]]></description><link>https://cjswo4034.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 31 Oct 2020 10:45:31 GMT</lastBuildDate><item><title><![CDATA[Ubuntu 설치 후 기본설정 (1)]]></title><description><![CDATA[한성 노트북에 Ubuntu 설치 후, 내가 한 설정들]]></description><link>https://cjswo4034.github.io/posts/Ubuntu-설치-후-기본설정-(1)/</link><guid isPermaLink="false">https://cjswo4034.github.io/posts/Ubuntu-설치-후-기본설정-(1)/</guid><pubDate>Sat, 31 Oct 2020 18:15:11 GMT</pubDate><content:encoded>&lt;h3 id=&quot;서론&quot;&gt;&lt;a href=&quot;#%EC%84%9C%EB%A1%A0&quot; aria-label=&quot;서론 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;서론&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Nsm]]></title><description><![CDATA[Shoot for the moon. Even if you miss, you'll land among the stars.]]></description><link>https://cjswo4034.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 31 Oct 2020 17:00:00 GMT</lastBuildDate><item><title><![CDATA[Ubuntu 설치 후 설정]]></title><description><![CDATA[한성 노트북에 Ubuntu 설치 후, 내가 한 설정들]]></description><link>https://cjswo4034.github.io/posts/Ubuntu-설치-후-설정/</link><guid isPermaLink="false">https://cjswo4034.github.io/posts/Ubuntu-설치-후-설정/</guid><pubDate>Sat, 31 Oct 2020 18:15:11 GMT</pubDate><content:encoded>&lt;h3 id=&quot;서론&quot;&gt;&lt;a href=&quot;#%EC%84%9C%EB%A1%A0&quot; aria-label=&quot;서론 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;서론&lt;/h3&gt;
 &lt;p&gt;  윈도우를 사용하다가 리눅스를 공부해보고 싶은 마음에 충동적으로 노트북에 우분투를 설치했습니다. 예전에 학교에서 배웠던 기억이 있는데, 몇 년전에 배워서 그런지 다 잊어버렸네요.&lt;/p&gt;
 &lt;p&gt;  우분투를 설치하는 것은 인터넷에서 본 블로그를 보고 따라 했습니다. 인터넷에 좋은 자료가 너무 많아서 설치과정은 차치하고 설치 후에 했던 것을 기록할 겸 포스팅하려 합니다.&lt;/p&gt;
 &lt;br&gt;
 &lt;hr&gt;
-&lt;blockquote&gt;
 &lt;h3 id=&quot;목차&quot;&gt;&lt;a href=&quot;#%EB%AA%A9%EC%B0%A8&quot; aria-label=&quot;목차 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;목차&lt;/h3&gt;
-&lt;h4 id=&quot;1-기본-설정&quot;&gt;&lt;a href=&quot;#1-%EA%B8%B0%EB%B3%B8-%EC%84%A4%EC%A0%95&quot; aria-label=&quot;1 기본 설정 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#1&quot;&gt;1. 기본 설정&lt;/a&gt;&lt;/h4&gt;
+&lt;h3 id=&quot;1-기본-설정&quot;&gt;&lt;a href=&quot;#1-%EA%B8%B0%EB%B3%B8-%EC%84%A4%EC%A0%95&quot; aria-label=&quot;1 기본 설정 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#1&quot;&gt;1. 기본 설정&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#1-1&quot;&gt;미러서버 변경&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#1-2&quot;&gt;업데이트&lt;/a&gt;&lt;/li&gt;
@@ -14,15 +13,16 @@
 &lt;li&gt;&lt;a href=&quot;#1-5&quot;&gt;터치패드 비활성화&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;#1-6&quot;&gt;하드디스크 마운트&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;2-테마&quot;&gt;&lt;a href=&quot;#2-%ED%85%8C%EB%A7%88&quot; aria-label=&quot;2 테마 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 테마&lt;/h4&gt;
+&lt;h3 id=&quot;2-테마&quot;&gt;&lt;a href=&quot;#2-%ED%85%8C%EB%A7%88&quot; aria-label=&quot;2 테마 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;#2&quot;&gt;2. 테마&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Tweak&lt;/li&gt;
-&lt;li&gt;Dock&lt;/li&gt;
-&lt;li&gt;테마&lt;/li&gt;
-&lt;li&gt;글꼴&lt;/li&gt;
-&lt;li&gt;아이콘&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-1&quot;&gt;tweak&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-2&quot;&gt;dock&lt;/a&gt; (dash to dock, plank)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-3&quot;&gt;테마&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-4&quot;&gt;쉘&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-5&quot;&gt;글꼴&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#2-6&quot;&gt;바탕화면 아이콘 제거&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;3-기타-앱&quot;&gt;&lt;a href=&quot;#3-%EA%B8%B0%ED%83%80-%EC%95%B1&quot; aria-label=&quot;3 기타 앱 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 기타 앱&lt;/h4&gt;
+&lt;h3 id=&quot;3-기타-앱&quot;&gt;&lt;a href=&quot;#3-%EA%B8%B0%ED%83%80-%EC%95%B1&quot; aria-label=&quot;3 기타 앱 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 기타 앱&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;bash shell&lt;/li&gt;
 &lt;li&gt;크롬&lt;/li&gt;
@@ -32,7 +32,6 @@
 &lt;li&gt;사진 편집 프로그램&lt;/li&gt;
 &lt;li&gt;음악 및 동영상 플레이어&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/blockquote&gt;
 &lt;hr&gt;
 &lt;h3 id=&quot;1-기본설정-a-id1a&quot;&gt;&lt;a href=&quot;#1-%EA%B8%B0%EB%B3%B8%EC%84%A4%EC%A0%95-a-id1a&quot; aria-label=&quot;1 기본설정 a id1a permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 기본설정 &lt;a id=&quot;1&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;h4 id=&quot;1-1-미러서버-변경-a-id1-1a&quot;&gt;&lt;a href=&quot;#1-1-%EB%AF%B8%EB%9F%AC%EC%84%9C%EB%B2%84-%EB%B3%80%EA%B2%BD-a-id1-1a&quot; aria-label=&quot;1 1 미러서버 변경 a id1 1a permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-1. 미러서버 변경 &lt;a id=&quot;1-1&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
@@ -109,7 +108,7 @@
     &lt;/span&gt;&lt;/p&gt;
 &lt;br&gt;
 &lt;h4 id=&quot;1-6-하드디스크-마운트a-id1-6a&quot;&gt;&lt;a href=&quot;#1-6-%ED%95%98%EB%93%9C%EB%94%94%EC%8A%A4%ED%81%AC-%EB%A7%88%EC%9A%B4%ED%8A%B8a-id1-6a&quot; aria-label=&quot;1 6 하드디스크 마운트a id1 6a permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1-6. 하드디스크 마운트&lt;a id=&quot;1-6&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
-&lt;p&gt;  저는 우분투 OS가 설치된 저장장치 외에 외장하드 1개, HDD 1개를 사용하고 있습니다. 외장하드는 부팅시 자동으로 인식이 되는데 HDD는 안되더라구요. 폴더창의 왼쪽 탭 제일 아래에 있는 다른 위치에서 HDD 클릭하는 것으로 간편하게 마운트를 할 수 있습니다. 하지만 부팅할 때마다 매번 수동으로 마운트를 해줘야하기 때문에 HDD를 자동으로 마운트되도록 하겠습니다.&lt;/p&gt;
+&lt;p&gt;  저는 우분투 OS가 설치된 저장장치 외에 외장하드 1개, HDD 1개를 사용하고 있습니다. 외장하드는 부팅시 자동으로 인식이 되는데 HDD는 안되더라구요. 폴더창에서 간편하게 마운팅을 할 수 있지만, 부팅할 때마다 매번 수동으로 마운트를 해줘야하기 때문에 HDD를 자동으로 마운트되도록 하겠습니다.&lt;/p&gt;
 &lt;p&gt;  먼저 특정 파티션을 마운트하려면 해당 파티션의 uuid를 알아야됩니다. uuid는 리눅스에서 파티션을 고유하게 식별하기 위해 사용되는 식별자이기 때문에 uuid를 알고 있으면 여러 개의 파티션 중에서 하나의 파티션을 특정할 수 있습니다.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;다음 명령어 중 하나로 파티션의 uuid를 확인합니다.&lt;/li&gt;
@@ -169,7 +168,8 @@
 &lt;li&gt;file system: 설정하려는 파일시스템의 uuid입니다.&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;mount point: 파일시스템이 마운트될 지점입니다. 원하는 경로를 지정해줍니다.&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;type: 파일시스템의 타입으로 uuid를 확인하는 명령어에서 파일시스템도 확인할 수 있습니다.&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;option: 사용하려는 환경에 맞는 옵션을 지정해줍니다. 옵션에 대한 모든 정보는 “man mount” 명령어로 확인할 수 있습니다.&lt;br&gt;
+&lt;li&gt;option: 사용하려는 환경에 맞는 옵션을 지정해줍니다.&lt;br&gt;
+            옵션에 대한 모든 정보는 “man mount” 명령어로 확인할 수 있습니다.&lt;br&gt;
            - default: rw, suid, dev, exec, auto, nouser, async 옵션을 사용합니다.&lt;br&gt;
            - auto: 부팅시 파일시스템을 마운트합니다.&lt;br&gt;
            - noauto: 부팅시 파일시스템이 마운트되는 것을 방지합니다.&lt;br&gt;
@@ -181,7 +181,7 @@
 &lt;li&gt;dump: (0|1) 중 하나를 선택할 수 있으며 덤프가 필요한 파일시스템이면 1을 선택합니다.&lt;br&gt;&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;pass: (0|1|2) 중 하나를 선택할 수 있습니다.&lt;br&gt;
-           부팅 시 fsck 명령어로 파일시스템을 점검하는 과정이 있는데 pass 필드로 검사 순서를 제어할 수 있습니다.&lt;br&gt;
+           부팅 시 fsck 명령어로 파일시스템을 점검할 때 pass 필드로 검사 순서를 제어할 수 있습니다.&lt;br&gt;
            0은 파일 시스템을 검사하고 싶지 않을 때 지정합니다.&lt;br&gt;
            1은 루트 파일시스템에 지정합니다.&lt;br&gt;
            2는 그 외의 파일시스템에 사용합니다.&lt;br&gt;&lt;/p&gt;
@@ -192,16 +192,112 @@
 &lt;ul&gt;
 &lt;li&gt;다음 명령어로 /etc/fstab에 마운트하려는 파일시스템의 정보를 삽입합니다.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sed&lt;/span&gt; -i &lt;span class=&quot;token string&quot;&gt;&apos;&lt;span class=&quot;token variable&quot;&gt;$aUUID&lt;/span&gt;=C820C4C020C4B72A /HDD/HDD1 ntfs defaults 0 0&apos;&lt;/span&gt; /etc/fstab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sed&lt;/span&gt; -i &lt;span class=&quot;token string&quot;&gt;&apos;&lt;span class=&quot;token variable&quot;&gt;$aUUID&lt;/span&gt;=C820C4C020C4B72A /mnt/HDD1 ntfs defaults 0 0&apos;&lt;/span&gt; /etc/fstab&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;blockquote&gt;
-&lt;p&gt;저는 uuid가 &lt;code class=&quot;language-text&quot;&gt;C820C4C020C4B72A&lt;/code&gt;인 파일시스템을 defaults 옵션을 사용해서 &lt;code class=&quot;language-text&quot;&gt;/HDD/HDD1&lt;/code&gt;에 마운트했습니다.&lt;/p&gt;
+&lt;p&gt;저는 uuid가 &lt;code class=&quot;language-text&quot;&gt;C820C4C020C4B72A&lt;/code&gt;인 파일시스템을 defaults 옵션을 사용해서 &lt;code class=&quot;language-text&quot;&gt;/mnt/HDD1&lt;/code&gt;에 마운트했습니다.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;br&gt;
 &lt;ul&gt;
 &lt;li&gt;마지막으로 수정한 fstab의 정보를 반영하고, 마운트 포인트의 심볼릭 링크를 만들어줍니다.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mount&lt;/span&gt; -a	&lt;span class=&quot;token comment&quot;&gt;# fstab에 언급된 모든 파일시스템을 마운트합니다.&lt;/span&gt;
-&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s /HDD/HDD1 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;path&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;	&lt;span class=&quot;token comment&quot;&gt;# 마운트포인트 /HDD/HDD1에 대한 심볼릭 링크를 path에 생성합니다.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Perfecting the Art of Perfection]]></title><description><![CDATA[Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.]]></description><link>https://cjswo4034.github.io/posts/perfecting-the-art-of-perfection/</link><guid isPermaLink="false">https://cjswo4034.github.io/posts/perfecting-the-art-of-perfection/</guid><pubDate>Thu, 01 Sep 2016 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.&lt;/p&gt;
+&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s /mnt/HDD1 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;path&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;	&lt;span class=&quot;token comment&quot;&gt;# 마운트포인트 /mnt/HDD1에 대한 심볼릭 링크를 path에 생성합니다.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;2-테마-a-id2a&quot;&gt;&lt;a href=&quot;#2-%ED%85%8C%EB%A7%88-a-id2a&quot; aria-label=&quot;2 테마 a id2a permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 테마 &lt;a id=&quot;2&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id=&quot;2-1-tweak-a-id2-2a&quot;&gt;&lt;a href=&quot;#2-1-tweak-a-id2-2a&quot; aria-label=&quot;2 1 tweak a id2 2a permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-1. tweak &lt;a id=&quot;2-2&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;  &lt;strong&gt;tweak&lt;/strong&gt;는 우분투의 GUI 테스크탑 환경인 그놈(GNOME)의 구성요소를 변경할 수 있는 도구입니다. tweak로 폰트나 아이콘, dock 같은 기본 구성요소를 변경할 수 있습니다. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;다음 명령어 중 하나로 tweak를 설치할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; gnome-tweaks
+  or
+&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; gnome-tweak-tool&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt; &lt;img src=&quot;/media/tweak.png&quot; alt=&quot;tweak.png&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;패키지를 설치하면 애플리케이션에 기능 개선 항목이 생성됩니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt; 우선 설치만 하고 다음 테마를 적용하면서 어떤 설정을 할 수 있는지 알아보겠습니다.&lt;/p&gt;
+&lt;br&gt;
+&lt;h4 id=&quot;2-2-dock&quot;&gt;&lt;a href=&quot;#2-2-dock&quot; aria-label=&quot;2 2 dock permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-2. Dock&lt;/h4&gt;
+&lt;p&gt;  우분투의 Dock은 애플의 맥 OS에 있는 Dock과 같은 기능을 제공합니다. 그런데 맥 OS와 다르게 우분투에서 제공하는 기본 Dock의 레이아웃은 조금 투박합니다. 그래서 테마를 적용하시는 분들을 보면 대부분 Dock을 바꾸시더라구요.&lt;/p&gt;
+&lt;p&gt;  우분투에서 Dock에 적용할만한 대표적인 테마는 &lt;strong&gt;Plank&lt;/strong&gt;와 &lt;strong&gt;Dash to dock&lt;/strong&gt; 두 가지가 있습니다. 저는 두 가지 독을 전부 설치해서 다음처럼 쓰고 있습니다.&lt;/p&gt;
+&lt;p&gt; &lt;img src=&quot;/media/docks.png&quot; alt=&quot;docks.png&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1번은 Dash to dock을 적용했고, 2번은 Plank를 적용했습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;--dash-to-dock&quot;&gt;&lt;a href=&quot;#--dash-to-dock&quot; aria-label=&quot;  dash to dock permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;- Dash to dock&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;  &lt;strong&gt;Dash to dock&lt;/strong&gt;은 파이어폭스나 크롬 브라우저에서 &lt;a href=&quot;https://extensions.gnome.org/extension/307/dash-to-dock/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Dash to Dock extension&lt;/a&gt;로 접속한 뒤 간단하게 설치할 수 있습니다. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;위의 링크에 접속한 뒤 OFF라고 써진 버튼을 클릭해서 ON으로 바꿔줍니다.
+&lt;img src=&quot;/media/d2d_extension.png&quot; alt=&quot;d2d_extendsion.png&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;br&gt;
+ 설치가 끝나면 2-1에서 설치했던 tweaks를 통해 독을 조정할 수 있습니다.
+&lt;ol&gt;
+&lt;li&gt;유틸리티에서 기능 개선 앱을 실행합니다.&lt;/li&gt;
+&lt;li&gt;확장 탭을 클릭한 뒤 아래 이미지에서 Ubuntu dock를 제외한 나머지 버튼을 활성화합니다.&lt;/li&gt;
+&lt;li&gt;Ubuntu dock 버튼은 비활성화합니다.
+&lt;img src=&quot;/media/tweak_active.png&quot; alt=&quot;tweak_active&quot;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;  각각의 버튼을 활성화 또는 비활성화 하면 독이 바뀐 모습을 볼 수 있습니다. 독의 레이아웃을 조정하려면 위 이미지에서 Dash to dock 항목 오른쪽에 메뉴 버튼을 클릭한 뒤, 활성화된 창에서 세부적인 사항을 조정할 수 있습니다.
+&lt;img src=&quot;/media/d2d.png&quot; alt=&quot;d2d&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&quot;--plank&quot;&gt;&lt;a href=&quot;#--plank&quot; aria-label=&quot;  plank permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;- Plank&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt; 다음 명령어로 &lt;a href=&quot;https://github.com/ricotz/plank&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Plank&lt;/a&gt;를 설치합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; plank&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+ &amp;nbsp;plank를 설치하고 나서 다음 명령어로 레이아웃을 조정할 수 있습니다. 위의 명령으로 plank를 설치하면 앱이 생성되는데, 생성된 앱을 클릭하면 실행이 안되더라구요. 그래서 명령어로 설정창을 실행합니다.
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;plank --preferences&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+ 저는 다음처럼 설정했습니다.
+ 
+ ![plank1.png](/media/plank1.png)
+&lt;p&gt;   도크릿 탭에서 아이콘을 클릭하면 plank 독에 클릭한 아이콘이 추가됩니다. Desktop 아이콘은 바탕화면을 표시하는 아이콘입니다. 윈도우에서 &lt;code class=&quot;language-text&quot;&gt;window + D&lt;/code&gt; 커맨드와 동일한 기능을 합니다.
+&lt;img src=&quot;/media/plank2.png&quot; alt=&quot;plank2.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt; plank에 있는 앱을 우클릭한 뒤 나타나는 &lt;code class=&quot;language-text&quot;&gt;플랭크에 두기&lt;/code&gt; 항목을 활성화하거나 비활성화해서 앱을 독에 추가하거나 지울 수 있습니다. 만약 앱을 지우고 싶은데 &lt;code class=&quot;language-text&quot;&gt;플랭크에 두기&lt;/code&gt;가 없다면 다음 경로에서 지우고 싶은 앱을 지우면 됩니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;~/.config/plank/dock1/launchers/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&lt;h4 id=&quot;2-3-테마-a-id2-3a&quot;&gt;&lt;a href=&quot;#2-3-%ED%85%8C%EB%A7%88-a-id2-3a&quot; aria-label=&quot;2 3 테마 a id2 3a permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-3. 테마 &lt;a id=&quot;2-3&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;  전체적인 테마를 변경하기 위해서 &lt;a href=&quot;https://extensions.gnome.org/extension/19/user-themes/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;여기&lt;/a&gt;에서 User Themes를 설치합니다. User Themes를 설치한 뒤 기능 개선 앱에서 테마를 변경할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;  테마는 &lt;a href=&quot;https://www.gnome-look.org/browse/cat/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;여기&lt;/a&gt;에서 원하는 테마를 다운로드하면 됩니다. 저는 다음과 같은 테마를 적용했습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;plain&quot;&gt;&lt;pre class=&quot;language-plain&quot;&gt;&lt;code class=&quot;language-plain&quot;&gt;Theme: Orchis-light
+Icon: Numix Circle Icon Theme&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+ &lt;br&gt;
+ &amp;nbsp;홈에 `.themes`폴더를 생성한 뒤, `~/.themes`에 위의 링크에서 다운받은 테마를 옮깁니다.
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; ~/.themes
+&lt;span class=&quot;token function&quot;&gt;mv&lt;/span&gt; Ordchis-light ~/.themes&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+ &lt;br&gt;
+ &amp;nbsp;그 다음 기능개선 앱에서 테마를 변경합니다. 모양새 탭에서 레이아웃, 커서, 아이콘 등의 테마를 변경할 수 있습니다.
+&lt;p&gt; &lt;img src=&quot;/media/themes.png&quot; alt=&quot;theme.png&quot;&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h4 id=&quot;2-4-쉘-a-id2-4a&quot;&gt;&lt;a href=&quot;#2-4-%EC%89%98-a-id2-4a&quot; aria-label=&quot;2 4 쉘 a id2 4a permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-4. 쉘 &lt;a id=&quot;2-4&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;  z쉘은 각종 플러그인을 적용할 수 있고 경로 추론 및 명령어 선택 등 다양한 기능을 제공해서 기본 쉘인 bash보다 편의성이 더 좋다고 합니다. 또한 oh-my-zsh라는 툴로 z쉘의 사용성을 개선할 수 있어서 많은 분들이 z쉘을 사용하시더라구요. 그래서 저도 한번 써봤습니다.&lt;/p&gt;
+&lt;p&gt;  다음 명령어로 z쉘과 oh-my-zsh를 설치하고 기본쉘로 변경합니다. (&lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh#basic-installation&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;zsh&lt;/a&gt;)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;zsh&lt;/span&gt; -y
+&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; chsh -s /usr/bin/zsh
+&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sh&lt;/span&gt; -c &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;curl&lt;/span&gt; -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;  zsh 테마는 &lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh/tree/master/themes&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;링크&lt;/a&gt; 및 &lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;링크&lt;/a&gt;에서 확인하실 수 있으며, 다음 순서로 다운받은 테마를 적용할 수 있습니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;확장자가 *.zsh-theme인 파일을 ~/.oh-my-zsh/custom/themes로 옮깁니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;~/.zshrc&lt;/code&gt; 파일에서 &lt;code class=&quot;language-text&quot;&gt;ZSH_THEME=&amp;quot;{테마명}&amp;quot;&lt;/code&gt;인 라인의 테마명을 다운받은 테마명으로 수정합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;source ~/.zshrc&lt;/code&gt; 명령어로 수정사항을 적용합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;  z쉘의 외부 플러그인도 &lt;code class=&quot;language-text&quot;&gt;~/.oh-my-zsh/custom/plugins/&lt;/code&gt;에 옮기고 &lt;code class=&quot;language-text&quot;&gt;.zshrc&lt;/code&gt;를 수정해서 사용할 수 있습니다.&lt;/p&gt;
+&lt;br&gt;
+&lt;h4 id=&quot;2-5-글꼴-a-id2-5a&quot;&gt;&lt;a href=&quot;#2-5-%EA%B8%80%EA%BC%B4-a-id2-5a&quot; aria-label=&quot;2 5 글꼴 a id2 5a permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-5. 글꼴 &lt;a id=&quot;2-5&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;  적용하고 싶은 글꼴의 ttf파일을 다운받고 실행해서 설치합니다. 저는 &lt;a href=&quot;https://github.com/naver/d2codingfont&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Naver D2&lt;/a&gt;를 받았습니다.&lt;/p&gt;
+&lt;p&gt;  그 다음, &lt;strong&gt;기능개선 앱&lt;/strong&gt;의 글꼴 탭에서 다운받은 글꼴로 변경합니다.
+&lt;img src=&quot;/media/font.png&quot; alt=&quot;font.png&quot;&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h4 id=&quot;2-6-바탕화면-아이콘-제거-a-id2-6a&quot;&gt;&lt;a href=&quot;#2-6-%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4-%EC%95%84%EC%9D%B4%EC%BD%98-%EC%A0%9C%EA%B1%B0-a-id2-6a&quot; aria-label=&quot;2 6 바탕화면 아이콘 제거 a id2 6a permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2-6. 바탕화면 아이콘 제거 &lt;a id=&quot;2-6&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt; 바탕화면에는 있지만 바탕화면 폴더에서 제거할 수 없는 아이콘(ex.쓰레기통)을 제거하려면 dconf 패키지가 필요합니다. 다음 명령으로 dconf를 설치한 뒤 실행합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; dconf-*
+&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; dconf-editor&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br&gt;
+&amp;nbsp; 아래의 화면에서 show-home 및 show-trash의 값을 거짓으로 변경하면 바탕화면에서 쓰레기통과 유저 폴더를 제거할 수 있습니다.
+![dconf](/media/dconf.png)
+&gt; 어플리케이션 테이블의 &apos;dconf 편집기&apos;로도 실행할 수도 있다.</content:encoded></item><item><title><![CDATA[Perfecting the Art of Perfection]]></title><description><![CDATA[Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.]]></description><link>https://cjswo4034.github.io/posts/perfecting-the-art-of-perfection/</link><guid isPermaLink="false">https://cjswo4034.github.io/posts/perfecting-the-art-of-perfection/</guid><pubDate>Thu, 01 Sep 2016 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;&quot;
