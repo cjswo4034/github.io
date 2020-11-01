@@ -70,7 +70,7 @@
 <p>  윈도우를 사용하다가 리눅스를 공부해보고 싶은 마음에 충동적으로 노트북에 우분투를 설치했습니다. 예전에 학교에서 배웠던 기억이 있는데, 몇 년전에 배워서 그런지 다 잊어버렸네요.</p>
 <p>  우분투를 설치하는 것은 인터넷에서 본 블로그를 보고 따라 했습니다. 인터넷에 좋은 자료가 너무 많아서 설치과정은 차치하고 설치 후에 했던 것을 기록할 겸 포스팅하려 합니다.</p>
 <br>
-<hr>
+___
 <h3 id="목차"><a href="#%EB%AA%A9%EC%B0%A8" aria-label="목차 permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>목차</h3>
 <h3 id="1-기본-설정"><a href="#1-%EA%B8%B0%EB%B3%B8-%EC%84%A4%EC%A0%95" aria-label="1 기본 설정 permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="#1">1. 기본 설정</a></h3>
 <ul>
@@ -105,7 +105,7 @@
 <h4 id="1-1-미러서버-변경-a-id1-1a"><a href="#1-1-%EB%AF%B8%EB%9F%AC%EC%84%9C%EB%B2%84-%EB%B3%80%EA%B2%BD-a-id1-1a" aria-label="1 1 미러서버 변경 a id1 1a permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1-1. 미러서버 변경 <a id="1-1"></a></h4>
 <p>  우분투를 설치할 때 기본으로 지정된 저장소를 카카오 미러 서버로 바꿔줬습니다.</p>
 <p>  기본 저장소도 빠르지만 카카오 미러 서버가 비교적 더 빨라서 많은 사람들이 주 미러 서버를 카카오 서버로 설정하고 있다고 하네요.</p>
-<p> 다음과 같은 명령어로 /etc/apt에 백업 파일을 만들고 카카오 미러 서버로 바꿀 수 있습니다. </p>
+<p> 다음과 같은 명령어로 /etc/apt에 백업 파일을 만들고 카카오 미러 서버로 바꿀 수 있습니다.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">sudo</span> <span class="token function">sed</span> -i<span class="token string">'.backup'</span> <span class="token string">'s/kr.archive.ubuntu.com/mirror.kakao.com/g'</span> /etc/apt/sources.list</code></pre></div>
 <ul>
 <li>다른 미러 서버를 사용하고 싶으신 분들은 <a href="https://launchpad.net/ubuntu/+archivemirrors" target="_blank" rel="nofollow noopener noreferrer">링크</a>에 접속하신 뒤 Korea 항목에 있는 링크 중 하나로 사용하시면 됩니다.</li>
@@ -123,7 +123,7 @@
 </ul>
 <br>
 <h4 id="1-3-한글-설정-a-id1-3a"><a href="#1-3-%ED%95%9C%EA%B8%80-%EC%84%A4%EC%A0%95-a-id1-3a" aria-label="1 3 한글 설정 a id1 3a permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1-3. 한글 설정 <a id="1-3"></a></h4>
-<p>  우분투 설치 과정 중, 언어 설정 단계에서 한국어(101/104키 호환)를 추가했었는데 한/영 변환이 잘 안되더라구요. </p>
+<p>  우분투 설치 과정 중, 언어 설정 단계에서 한국어(101/104키 호환)를 추가했었는데 한/영 변환이 잘 안되더라구요.</p>
 <p>그래서 한글과 관련된 입력기를 이것 저것 설치해보던 중, <a href="https://gist.github.com/philoskim/a79440bd51ae40f04a4d7cafa472caf1" target="_blank" rel="nofollow noopener noreferrer">이 글</a>을 보고 해결할 수 있었습니다. 혹시 문제 있으신분들은 참고하세요.</p>
 <br>
 <h4 id="1-4-개발-도구-설치-a-id1-4a"><a href="#1-4-%EA%B0%9C%EB%B0%9C-%EB%8F%84%EA%B5%AC-%EC%84%A4%EC%B9%98-a-id1-4a" aria-label="1 4 개발 도구 설치 a id1 4a permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1-4. 개발 도구 설치 <a id="1-4"></a></h4>
@@ -134,7 +134,48 @@
 <p>  한성 노트북에 우분투를 설치해서 사용하는데 한성에서는 리눅스에서 사용할 수 있는 드라이브를 제공해주지 않더라구요.</p>
 <p>  윈도우에서는 터치패드 좌측 상단을 더블클릭하면 비활성화할 수 있는데 터치패드 비활성화가 안될 뿐만 아니라, 몇몇 Fn키가 먹히지 않았습니다. 그래서 터치패드 없이 사용하는게 낫겠다 싶어 우분투 설정에서 터치패드를 비활성화 했습니다.</p>
 <p>우측 상단 설정 -> 마우스 및 터치패드 항목에서 끌 수 있습니다.</p>
-<p><img src="/media/image-20201031001842871.png" alt="image-20201031001842871.png"></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/d308d48a015f9e7e5bb5c4851ef8a5ff/671a4/touchpad.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.44859813084112%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsSAAALEgHS3X78AAACpUlEQVQ4y11Tz0sbURBe8C5ZD+2hm0v/Aw+tnkTwP/CPEUSynr14KbnEg1GpQhBy0CJYMIiCFLxIacUkekjMDxOzu9nN/kr2vek3TxO0D4bMvpn53vfNTLR02tCq1eqHdrudvri4MO7v741KpWLUajWjXq8ra7efjG63a5ydnRm7u7vG8fEP5JSNy8tLA7XGw8NDulwuf5yfn9e0rVxu2vO8ShzHieM4fpIkIfxwOBxOjE+Eu36/Hz6126FtOyqHvxH3udb3/frGxsa0ls1mZyzL6gwGA5JS0vgggfgujiJqNBrUbLXUHYpJCDHJ428227Zd0zRnNEjQe71ek4tHo1GCHIkC6bquBHP5+Pgon5+fJeISCpSBmfR8X7rwkSeCMCQbrDKmqWv5rS3d6vVaImEsEkAj9pGoDHmEBxUrPEjJcEgjJA5vbyn+eUphqSRCxyHbcWxzdVXXvhWLKdvzGq8KJlpcyAMTiuKIwJTQxhdAmErqdCj6/ZeCP7ciRFwBrq3p2q/l5U/d01O7USqRfXUlwpsbiq6vyavXqY82hEGgmDJoAJ+Bua+qz2j5YCRFqCTbtsmS/87Nfa7t7wfVoyOqFouyc35O1skJeXd31AcAF2OSamBsSjpaogYj4ceR4IcwlBfAbKGQQqObES4hR6nhWbtgpyQDkBmMjYuTRKgsNxRoTQSGbwC/Y8rwWwBlJuLtlHmaAJRYC4mYfHuQJgeRxLRjwW2BYiuTyehaLpfTUdh8lcSjFnzQM4F7ATDBD41e2L+zBDuBjU+CwGeG1vr6uq5tbm6m8Ld6Yincq/Hhb95NlszGy8tT/t+4DVyHXXVWVlZS2tLS0tTOzs6Xg4ODxcPDw4VCoaBsb29vAUu/gNjE397efmf5fH4cX8Tv19nZ2al/rNB1+u6X6LkAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <picture>
+        <source
+          srcset="/static/d308d48a015f9e7e5bb5c4851ef8a5ff/01472/touchpad.webp 240w,
+/static/d308d48a015f9e7e5bb5c4851ef8a5ff/222bd/touchpad.webp 480w,
+/static/d308d48a015f9e7e5bb5c4851ef8a5ff/620b9/touchpad.webp 960w,
+/static/d308d48a015f9e7e5bb5c4851ef8a5ff/322e6/touchpad.webp 1070w"
+          sizes="(max-width: 960px) 100vw, 960px"
+          type="image/webp"
+        />
+        <source
+          srcset="/static/d308d48a015f9e7e5bb5c4851ef8a5ff/0783d/touchpad.png 240w,
+/static/d308d48a015f9e7e5bb5c4851ef8a5ff/782f4/touchpad.png 480w,
+/static/d308d48a015f9e7e5bb5c4851ef8a5ff/f570d/touchpad.png 960w,
+/static/d308d48a015f9e7e5bb5c4851ef8a5ff/671a4/touchpad.png 1070w"
+          sizes="(max-width: 960px) 100vw, 960px"
+          type="image/png"
+        />
+        <img
+          class="gatsby-resp-image-image"
+          src="/static/d308d48a015f9e7e5bb5c4851ef8a5ff/f570d/touchpad.png"
+          alt="touchpad"
+          title="touchpad"
+          loading="lazy"
+        />
+      </picture>
+  </a>
+    </span></p>
 <br>
 <h4 id="1-6-하드디스크-마운트a-id1-6a"><a href="#1-6-%ED%95%98%EB%93%9C%EB%94%94%EC%8A%A4%ED%81%AC-%EB%A7%88%EC%9A%B4%ED%8A%B8a-id1-6a" aria-label="1 6 하드디스크 마운트a id1 6a permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1-6. 하드디스크 마운트<a id="1-6"></a></h4>
 <p>  저는 우분투 OS가 설치된 저장장치 외에 외장하드 1개, HDD 1개를 사용하고 있습니다. 외장하드는 부팅시 자동으로 인식이 되는데 HDD는 안되더라구요. 폴더창에서 간편하게 마운팅을 할 수 있지만, 부팅할 때마다 매번 수동으로 마운트를 해줘야하기 때문에 HDD를 자동으로 마운트되도록 하겠습니다.</p>
@@ -145,13 +186,54 @@
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token number">1</span><span class="token punctuation">)</span> <span class="token function">ls</span> -l /dev/disk/by-uuid
 <span class="token number">2</span><span class="token punctuation">)</span> <span class="token function">sudo</span> blkid <span class="token operator">|</span> <span class="token function">grep</span> UUID
 <span class="token number">3</span><span class="token punctuation">)</span> <span class="token function">sudo</span> lsblk -f <span class="token operator">|</span> <span class="token function">grep</span> -v loop</code></pre></div>
-<p><img src="/media/image-20201031161049268.png" alt="image-20201031161049268"></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/276b3d85e0d3e61cbe1e3a9bab2fdc83/3ea1d/lsblk.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 36.868186323092175%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAAAsSAAALEgHS3X78AAABqElEQVQoz4WOzU4UQRDHu6e7Z5iZne5ld4cdkiWbaEKMBrnIQvQKGgIJeECDO8SH8MjNp/EhlIMnlWURdmmz+PECHpDB8OHSXdZMBA8ePPxS/U9V9a/IxeGXVzD4/PWi1++f7/f02R5ycKCHhx/15WBPH+929eD1G/1ta0uf9Pr6Z7erTzo7/3D8YfvT0bv3HfJifWV/c20JnkxPweM7k7By+y6szs3A04U6rD6oQqs6Cq16Aq04xncNWlEEs1IWzEl1zRRj8HL9GRA1Vt0mhABxxZAIZtyoZAilho74hnBhCGMG+39xHJyJDPFcM6IUIq96di1NT8l4knQC3wfPdQ1Hi4okRGEIZaUgrtWKSnPhHxzE9zxwOQeFV+bIUskySuH5xsY5SZLxTqPRACnlJWPM5ibHcWwcxwVhGFrf920QBLaEiwHmSqViheBWlctFTwhR7KVpekYWlx/tzj+ch4lmE+pJAtWxCYhv3YQb90No3guBcQqUOoASQCE4NM/0+uKcq9xut4ekPKreouUX4/wHLmSM8YwJkXGPZswlGQ7+F5QVFT/8/hsE8dNk1R7TiAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <picture>
+        <source
+          srcset="/static/276b3d85e0d3e61cbe1e3a9bab2fdc83/01472/lsblk.webp 240w,
+/static/276b3d85e0d3e61cbe1e3a9bab2fdc83/222bd/lsblk.webp 480w,
+/static/276b3d85e0d3e61cbe1e3a9bab2fdc83/620b9/lsblk.webp 960w,
+/static/276b3d85e0d3e61cbe1e3a9bab2fdc83/c2d1c/lsblk.webp 1009w"
+          sizes="(max-width: 960px) 100vw, 960px"
+          type="image/webp"
+        />
+        <source
+          srcset="/static/276b3d85e0d3e61cbe1e3a9bab2fdc83/0783d/lsblk.png 240w,
+/static/276b3d85e0d3e61cbe1e3a9bab2fdc83/782f4/lsblk.png 480w,
+/static/276b3d85e0d3e61cbe1e3a9bab2fdc83/f570d/lsblk.png 960w,
+/static/276b3d85e0d3e61cbe1e3a9bab2fdc83/3ea1d/lsblk.png 1009w"
+          sizes="(max-width: 960px) 100vw, 960px"
+          type="image/png"
+        />
+        <img
+          class="gatsby-resp-image-image"
+          src="/static/276b3d85e0d3e61cbe1e3a9bab2fdc83/f570d/lsblk.png"
+          alt="lsblk"
+          title="lsblk"
+          loading="lazy"
+        />
+      </picture>
+  </a>
+    </span></p>
 <blockquote>
 <p> 제가 마운트하려는 파티션은 위에서 3번째 파티션으로 해당 파티션의 uuid는  <code class="language-text">C820C4C020C4B72A</code>입니다.</p>
 </blockquote>
 <br>
 <p>  리눅스에서 파일시스템에 대한 정보는 <code class="language-text">/etc/fstab</code>파일에 저장되어 있습니다. <code class="language-text">fstab</code>에서 하나의 파일 시스템은 다음과 같은 형식으로 한 줄로 표현됩니다. 따라서 다음 형식으로 마운트 할 파일시스템의 정보를 fstab에 추가합니다. </p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">&lt;file system&gt; &lt;mount point&gt; &lt;type&gt; &lt;option&gt; &lt;dump&gt; &lt;pass&gt;</code></pre></div>
+<div class="gatsby-highlight" data-language="plaintext"><pre class="language-plaintext"><code class="language-plaintext">&lt;file system&gt; &lt;mount point&gt; &lt;type&gt; &lt;option&gt; &lt;dump&gt; &lt;pass&gt;</code></pre></div>
 <details markdown="1">
 <summary> 필드들의 의미 </summary>
 <ol>
@@ -190,8 +272,8 @@
 <ul>
 <li>마지막으로 수정한 fstab의 정보를 반영하고, 마운트 포인트의 심볼릭 링크를 만들어줍니다.</li>
 </ul>
-<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token number">1</span><span class="token punctuation">)</span> <span class="token function">sudo</span> <span class="token function">mount</span> -a	<span class="token comment"># fstab에 언급된 모든 파일시스템을 마운트합니다.</span>
-<span class="token number">2</span><span class="token punctuation">)</span> <span class="token function">ln</span> -s /mnt/HDD1 <span class="token punctuation">[</span>path<span class="token punctuation">]</span>	<span class="token comment"># 마운트포인트 /mnt/HDD1에 대한 심볼릭 링크를 path에 생성합니다.</span></code></pre></div>
+<div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token number">1</span><span class="token punctuation">)</span> <span class="token function">sudo</span> <span class="token function">mount</span> -a            <span class="token comment"># fstab에 언급된 모든 파일시스템을 마운트합니다.</span>
+<span class="token number">2</span><span class="token punctuation">)</span> <span class="token function">ln</span> -s /mnt/HDD1 <span class="token punctuation">[</span>path<span class="token punctuation">]</span>   <span class="token comment"># 마운트포인트 /mnt/HDD1에 대한 심볼릭 링크를 path에 생성합니다.</span></code></pre></div>
 <hr>
 <h3 id="2-테마-a-id2a"><a href="#2-%ED%85%8C%EB%A7%88-a-id2a" aria-label="2 테마 a id2a permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. 테마 <a id="2"></a></h3>
 <h4 id="2-1-tweak-a-id2-2a"><a href="#2-1-tweak-a-id2-2a" aria-label="2 1 tweak a id2 2a permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2-1. tweak <a id="2-2"></a></h4>
@@ -297,7 +379,7 @@
 </blockquote>
 <hr>
 <h4 id="--dash-to-dock"><a href="#--dash-to-dock" aria-label="  dash to dock permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><strong>- Dash to dock</strong></h4>
-<p>  <strong>Dash to dock</strong>은 파이어폭스나 크롬 브라우저에서 <a href="https://extensions.gnome.org/extension/307/dash-to-dock/" target="_blank" rel="nofollow noopener noreferrer">Dash to Dock extension</a>로 접속한 뒤 간단하게 설치할 수 있습니다. </p>
+<p>  <strong>Dash to dock</strong>은 파이어폭스나 크롬 브라우저에서 <a href="https://extensions.gnome.org/extension/307/dash-to-dock/" target="_blank" rel="nofollow noopener noreferrer">Dash to Dock extension</a>로 접속한 뒤 간단하게 설치할 수 있습니다.</p>
 <ul>
 <li>위의 링크에 접속한 뒤 OFF라고 써진 버튼을 클릭해서 ON으로 바꿔줍니다.</li>
 </ul>
@@ -341,15 +423,13 @@
       </picture>
   </a>
     </span></p>
- <br>
- 
- 설치가 끝나면 2-1에서 설치했던 tweaks를 통해 독을 조정할 수 있습니다.
+<br>
+<p>설치가 끝나면 2-1에서 설치했던 tweaks를 통해 독을 조정할 수 있습니다.</p>
 <ol>
 <li>유틸리티에서 기능 개선 앱을 실행합니다.</li>
 <li>확장 탭을 클릭한 뒤 아래 이미지에서 Ubuntu dock를 제외한 나머지 버튼을 활성화합니다.</li>
-<li>Ubuntu dock 버튼은 비활성화합니다.</li>
-</ol>
-<p>   <span
+<li>Ubuntu dock 버튼은 비활성화합니다.
+<span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;"
     >
@@ -390,7 +470,8 @@
         />
       </picture>
   </a>
-    </span></p>
+    </span></li>
+</ol>
 <p>  각각의 버튼을 활성화 또는 비활성화 하면 독이 바뀐 모습을 볼 수 있습니다. 독의 레이아웃을 조정하려면 위 이미지에서 Dash to dock 항목 오른쪽에 메뉴 버튼을 클릭한 뒤, 활성화된 창에서 세부적인 사항을 조정할 수 있습니다.</p>
 <p> <span
       class="gatsby-resp-image-wrapper"
@@ -437,11 +518,11 @@
 <p> 다음 명령어로 <a href="https://github.com/ricotz/plank" target="_blank" rel="nofollow noopener noreferrer">Plank</a>를 설치합니다.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> plank</code></pre></div>
 <br>
-<p>  plank를 설치하고 나서 다음 명령어로 레이아웃을 조정할 수 있습니다. 위의 명령으로 plank를 설치하면 앱이 생성되는데, 생성된 앱을 클릭하면 실행이 안되더라구요. 그래서 명령어로 설정창을 실행합니다.</p>
+<p> plank를 설치하고 나서 다음 명령어로 레이아웃을 조정할 수 있습니다. 위의 명령으로 plank를 설치하면 앱이 생성되는데, 생성된 앱을 클릭하면 실행이 안되더라구요. 그래서 명령어로 설정창을 실행합니다.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">plank --preferences</code></pre></div>
 <br>
-<p> 저는 다음처럼 설정했습니다.</p>
-<p> <span
+<p>저는 다음처럼 설정했습니다.</p>
+<p>  <span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 688px;"
     >
@@ -481,8 +562,8 @@
       </picture>
   </a>
     </span></p>
-<p>   도크릿 탭에서 아이콘을 클릭하면 plank 독에 클릭한 아이콘이 추가됩니다. Desktop 아이콘은 바탕화면을 표시하는 아이콘입니다. 윈도우에서 <code class="language-text">window + D</code> 커맨드와 동일한 기능을 합니다.</p>
-<p>  <span
+<p> 도크릿 탭에서 아이콘을 클릭하면 plank 독에 클릭한 아이콘이 추가됩니다. Desktop 아이콘은 바탕화면을 표시하는 아이콘입니다. 윈도우에서 <code class="language-text">window + D</code> 커맨드와 동일한 기능을 합니다.
+<span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 688px;"
     >
@@ -530,14 +611,13 @@
 <p>  테마는 <a href="https://www.gnome-look.org/browse/cat/" target="_blank" rel="nofollow noopener noreferrer">여기</a>에서 원하는 테마를 다운로드하면 됩니다. 저는 다음과 같은 테마를 적용했습니다.</p>
 <div class="gatsby-highlight" data-language="plain"><pre class="language-plain"><code class="language-plain">Theme: Orchis-light
 Icon: Numix Circle Icon Theme</code></pre></div>
- <br>
- 
- &nbsp;홈에 `.themes`폴더를 생성한 뒤, `~/.themes`에 위의 링크에서 다운받은 테마를 옮깁니다.
+<br>
+<p> 홈에 <code class="language-text">.themes</code>폴더를 생성한 뒤, <code class="language-text">~/.themes</code>에 위의 링크에서 다운받은 테마를 옮깁니다.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token function">mkdir</span> ~/.themes
 <span class="token function">mv</span> Ordchis-light ~/.themes</code></pre></div>
- <br>
- &nbsp;그 다음 기능개선 앱에서 테마를 변경합니다. 모양새 탭에서 레이아웃, 커서, 아이콘 등의 테마를 변경할 수 있습니다.
-<p> <span
+<br>
+<p> 그 다음 기능개선 앱에서 테마를 변경합니다. 모양새 탭에서 레이아웃, 커서, 아이콘 등의 테마를 변경할 수 있습니다.</p>
+<p><span
       class="gatsby-resp-image-wrapper"
       style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 960px;"
     >
